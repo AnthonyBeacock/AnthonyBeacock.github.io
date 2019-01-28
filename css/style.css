@@ -24,3 +24,7 @@ header nav {
 .logo img{
 margin-top: 300px;
 }
+
+header nav ul li a{
+    padding-right: 30px;
+}
