@@ -1,21 +1,22 @@
 * , html, body{
     margin: 0;
     padding: 0;
+    font-family: 'VT323', monospace;
 }
 
 header {
-    background-color: deepskyblue;
-    height: 112px;
-    line-height: 112px;
+    /* background-color: deepskyblue; */
+    height: 100px;
+    line-height: 100px;
 }
 
 ul {
     list-style: none;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
-}
+} 
 
 header nav {
     float: right;
@@ -28,11 +29,62 @@ margin-top: 300px;
 header nav ul li a{
     padding-right: 30px;
     font-weight: bold;
-    color: white;
+    color: black;
     transition: all 0.5s ease-in;
 }
 
 header nav ul li a:hover{
     text-decoration: none;
     color: red;
+}
+
+.title {
+    margin-top: 150px;
+    text-align: center;
+   
+}
+
+.title h2 {
+    font-size: 20px;
+}
+
+.skills {
+    padding-top: 150px;
+}
+.intro-row {
+    background-color: blue;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+}
+
+.intro-row h2, p {
+    padding-top: 100px;
+    color: white;
+}
+
+.skills-left, .skills-right{
+    height: 500px;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+}
+
+.skills-left {
+    float: left;
+    margin-left: 50px;
+}
+
+.skills-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.projects {
+    align-content: center;
+    text-align: center;
+    margin-top: 600px;
 }
