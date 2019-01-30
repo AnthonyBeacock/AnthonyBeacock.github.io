@@ -48,6 +48,10 @@ header nav ul li a:hover{
     font-size: 20px;
 }
 
+.title img {
+ size: 20%;
+}
+
 .skills {
     padding-top: 150px;
 }
