@@ -115,13 +115,10 @@ header nav ul li a:hover{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
-
-
-/* .projects img
-{
-    height: 5%;
-    width: 5%;
-}*/
+ .project-grid img {
+     height: 5%;
+     width: 5%;   
+ }
 
 .project-image {
  grid-row: 1;
