@@ -92,3 +92,8 @@ header nav ul li a:hover{
     text-align: center;
     margin-top: 600px;
 }
+
+.projects img
+{
+    size: 20%;
+}
