@@ -98,7 +98,8 @@ header nav ul li a:hover{
 .skill-headers {
     font-size:3vw;
     justify-content: center;
-    
+    justify-self: center;
+    text-align: center;
 }
 
 .skills-left {
