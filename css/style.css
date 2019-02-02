@@ -95,6 +95,12 @@ header nav ul li a:hover{
     grid-row: 2 / span 3;
 }
 
+.skill-headers {
+    font-size:3vw;
+    justify-content: center;
+    
+}
+
 .skills-left {
     grid-column: 1;
     justify-self: center;
