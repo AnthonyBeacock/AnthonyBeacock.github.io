@@ -6,3 +6,11 @@ p {
     text-align: center;
     text-justify: auto;
 }
+
+table {
+    align-self: center;
+}
+
+iframe {
+    align-self: center;
+}
